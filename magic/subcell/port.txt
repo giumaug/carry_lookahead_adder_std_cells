@@ -1,0 +1,44 @@
+Bitwise PG
+
+A1 1
+B1 2
+A2 3
+B2 4
+A3 5
+B3 6
+A4 7
+B4 8
+
+G1 9
+P1 10
+G2 11
+P2 12
+G3 13
+P3 14
+G4 15
+P4 16
+VDD 17
+GND 18
+VPB 19
+VNB 20
+
+
+group PG
+
+CI 1
+P1 2
+G1 3
+P2 4
+G2 5
+P3 6
+G3 7
+P4 8
+G4 9
+CO 10
+
+VDD 11
+GND 12
+VPB 13
+VNB 14
+
+

@@ -1,0 +1,39 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1695893957
+<< error_s >>
+rect 590 264 837 585
+rect 1225 264 1472 585
+rect 680 -406 929 -85
+rect 1410 -406 1654 -85
+rect 2140 -406 2384 -85
+use sky130_fd_sc_hd__a21o_1  sky130_fd_sc_hd__a21o_1_0
+timestamp 1691611044
+transform 1 0 -7 0 1 3
+box -38 -48 590 592
+use sky130_fd_sc_hd__a21o_1  sky130_fd_sc_hd__a21o_1_1
+timestamp 1691611044
+transform 1 0 628 0 1 3
+box -38 -48 590 592
+use sky130_fd_sc_hd__a21o_1  sky130_fd_sc_hd__a21o_1_2
+timestamp 1691611044
+transform 1 0 1263 0 1 3
+box -38 -48 590 592
+use sky130_fd_sc_hd__xor2_1  sky130_fd_sc_hd__xor2_1_0
+timestamp 1691611044
+transform 1 0 -7 0 1 -667
+box -38 -48 682 592
+use sky130_fd_sc_hd__xor2_1  sky130_fd_sc_hd__xor2_1_1
+timestamp 1691611044
+transform 1 0 718 0 1 -667
+box -38 -48 682 592
+use sky130_fd_sc_hd__xor2_1  sky130_fd_sc_hd__xor2_1_2
+timestamp 1691611044
+transform 1 0 1448 0 1 -667
+box -38 -48 682 592
+use sky130_fd_sc_hd__xor2_1  sky130_fd_sc_hd__xor2_1_3
+timestamp 1691611044
+transform 1 0 2178 0 1 -667
+box -38 -48 682 592
+<< end >>
