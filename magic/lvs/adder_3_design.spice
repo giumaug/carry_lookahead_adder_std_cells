@@ -1,0 +1,54 @@
+* NGSPICE file created from adder_3.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hd__xor2_1 A B VGND VNB VPB VPWR X
+X0 X a_35_297# a_285_297# VPB sky130_fd_pr__pfet_01v8_hvt ad=0.3 pd=2.6 as=0.177 ps=1.69 w=1 l=0.15
+**devattr s=10400,504 d=12000,520
+X1 X B a_285_47# VNB sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.42 as=0.0878 ps=0.92 w=0.65 l=0.15
+**devattr s=3510,184 d=10010,284
+X2 a_35_297# B VGND VNB sky130_fd_pr__nfet_01v8 ad=0.0878 pd=0.92 as=0.138 ps=1.4 w=0.65 l=0.15
+**devattr s=6760,364 d=3510,184
+X3 a_117_297# B a_35_297# VPB sky130_fd_pr__pfet_01v8_hvt ad=0.135 pd=1.27 as=0.26 ps=2.52 w=1 l=0.15
+**devattr s=10400,504 d=5400,254
+X4 VPWR B a_285_297# VPB sky130_fd_pr__pfet_01v8_hvt ad=0.177 pd=1.69 as=0.177 ps=1.69 w=1 l=0.15
+**devattr s=5400,254 d=10400,504
+X5 VGND A a_35_297# VNB sky130_fd_pr__nfet_01v8 ad=0.138 pd=1.4 as=0.0878 ps=0.92 w=0.65 l=0.15
+**devattr s=3510,184 d=3510,184
+X6 VGND a_35_297# X VNB sky130_fd_pr__nfet_01v8 ad=0.138 pd=1.4 as=0.25 ps=1.42 w=0.65 l=0.15
+**devattr s=10010,284 d=8320,388
+X7 a_285_297# A VPWR VPB sky130_fd_pr__pfet_01v8_hvt ad=0.177 pd=1.69 as=0.177 ps=1.69 w=1 l=0.15
+**devattr s=5400,254 d=5400,254
+X8 VPWR A a_117_297# VPB sky130_fd_pr__pfet_01v8_hvt ad=0.177 pd=1.69 as=0.135 ps=1.27 w=1 l=0.15
+**devattr s=5400,254 d=5400,254
+X9 a_285_47# A VGND VNB sky130_fd_pr__nfet_01v8 ad=0.0878 pd=0.92 as=0.138 ps=1.4 w=0.65 l=0.15
+**devattr s=3510,184 d=3510,184
+.ends
+
+.subckt sky130_fd_sc_hd__a21o_1 A1 A2 B1 VGND VNB VPB VPWR X
+X0 a_81_21# B1 VGND VNB sky130_fd_pr__nfet_01v8 ad=0.0894 pd=0.925 as=0.229 ps=1.57 w=0.65 l=0.15
+**devattr s=10270,288 d=3575,185
+X1 a_299_297# B1 a_81_21# VPB sky130_fd_pr__pfet_01v8_hvt ad=0.18 pd=1.69 as=0.26 ps=2.52 w=1 l=0.15
+**devattr s=10400,504 d=5500,255
+X2 VPWR a_81_21# X VPB sky130_fd_pr__pfet_01v8_hvt ad=0.18 pd=1.69 as=0.26 ps=2.52 w=1 l=0.15
+**devattr s=10400,504 d=10400,504
+X3 VPWR A1 a_299_297# VPB sky130_fd_pr__pfet_01v8_hvt ad=0.18 pd=1.69 as=0.18 ps=1.69 w=1 l=0.15
+**devattr s=5500,255 d=5600,256
+X4 VGND a_81_21# X VNB sky130_fd_pr__nfet_01v8 ad=0.229 pd=1.57 as=0.169 ps=1.82 w=0.65 l=0.15
+**devattr s=6760,364 d=10270,288
+X5 VGND A2 a_384_47# VNB sky130_fd_pr__nfet_01v8 ad=0.229 pd=1.57 as=0.091 ps=0.93 w=0.65 l=0.15
+**devattr s=3640,186 d=6890,366
+X6 a_299_297# A2 VPWR VPB sky130_fd_pr__pfet_01v8_hvt ad=0.18 pd=1.69 as=0.18 ps=1.69 w=1 l=0.15
+**devattr s=5600,256 d=10600,506
+X7 a_384_47# A1 a_81_21# VNB sky130_fd_pr__nfet_01v8 ad=0.091 pd=0.93 as=0.0894 ps=0.925 w=0.65 l=0.15
+**devattr s=3575,185 d=3640,186
+.ends
+
+Xsky130_fd_sc_hd__a21o_1_0 CI P1 G1 GND GND VDD VDD X1 sky130_fd_sc_hd__a21o_1
+Xsky130_fd_sc_hd__a21o_1_1 X1 P2 G2 GND GND VDD VDD X2 sky130_fd_sc_hd__a21o_1
+Xsky130_fd_sc_hd__a21o_1_2 X2 P3 G3 GND GND VDD VDD X3 sky130_fd_sc_hd__a21o_1
+Xsky130_fd_sc_hd__a21o_1_3 X3 P4 G4 GND GND VDD VDD CO sky130_fd_sc_hd__a21o_1
+
+Xsky130_fd_sc_hd__xor2_1_0 P1 CI GND GND VDD VDD S1 sky130_fd_sc_hd__xor2_1
+Xsky130_fd_sc_hd__xor2_1_1 P2 X1 GND GND VDD VDD S2 sky130_fd_sc_hd__xor2_1
+Xsky130_fd_sc_hd__xor2_1_2 P3 X2 GND GND VDD VDD S3 sky130_fd_sc_hd__xor2_1
+Xsky130_fd_sc_hd__xor2_1_3 P4 X3 GND GND VDD VDD S4 sky130_fd_sc_hd__xor2_1
+.end

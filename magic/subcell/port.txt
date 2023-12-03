@@ -17,6 +17,7 @@ G3 13
 P3 14
 G4 15
 P4 16
+
 VDD 17
 GND 18
 VPB 19
@@ -25,14 +26,14 @@ VNB 20
 
 group PG
 
-CI 1
-P1 2
-G1 3
-P2 4
+CI 1 
+P1 2 
+G1 3 
+P2 4 
 G2 5
-P3 6
+P3 6 
 G3 7
-P4 8
+P4 8 
 G4 9
 CO 10
 
@@ -41,4 +42,24 @@ GND 12
 VPB 13
 VNB 14
 
+adder
 
+CI 1 
+P1 2 
+G1 3 
+P2 4 
+G2 5 
+P3 6 
+G3 7 
+P4 8 
+G4 9 
+S1 10 
+S2 11 
+S3 12 
+S4 13 
+CO 14 
+
+VDD 15
+GND 16
+VPB 17
+VNB 18
