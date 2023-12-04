@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1701618932
+timestamp 1701623116
 << metal1 >>
 rect 3290 1445 3370 1455
 rect 3290 1430 3300 1445
@@ -57,6 +57,7 @@ rect 15 720 80 750
 rect 70 705 80 720
 rect 140 705 150 765
 rect 70 695 150 705
+rect -277 568 23 664
 rect 360 510 440 520
 rect 360 450 370 510
 rect 430 450 440 510
@@ -299,6 +300,7 @@ rect 70 765 150 775
 rect 70 705 80 765
 rect 140 705 150 765
 rect 70 695 150 705
+rect -120 -75 -20 670
 rect 95 325 125 695
 rect 360 510 440 520
 rect 360 450 370 510
@@ -509,4 +511,23 @@ use adder_3  adder_3_0
 timestamp 1699994886
 transform 1 0 25 0 1 -2055
 box -45 -580 5561 595
+<< labels >>
+flabel metal1 20 735 20 735 1 FreeSans 160 0 0 0 A1
+port 1 n
+flabel metal1 25 820 25 820 1 FreeSans 160 0 0 0 B1
+port 2 n
+flabel metal1 25 905 25 905 1 FreeSans 160 0 0 0 A2
+port 3 n
+flabel metal1 25 990 25 990 1 FreeSans 160 0 0 0 B2
+port 4 n
+flabel metal1 25 1075 25 1075 1 FreeSans 160 0 0 0 A3
+port 5 n
+flabel metal1 25 1160 25 1160 1 FreeSans 160 0 0 0 B3
+port 6 n
+flabel metal1 25 1245 25 1245 1 FreeSans 160 0 0 0 A4
+port 7 n
+flabel metal1 25 1330 25 1330 1 FreeSans 160 0 0 0 B4
+port 8 n
+flabel metal1 25 1415 25 1415 1 FreeSans 160 0 0 0 CI
+port 9 n
 << end >>

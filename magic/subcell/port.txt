@@ -63,3 +63,14 @@ VDD 15
 GND 16
 VPB 17
 VNB 18
+
+adder 4 bit
+A1
+B1
+A2
+B2
+A3
+B3
+A4
+B4
+CI
