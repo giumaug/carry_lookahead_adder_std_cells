@@ -65,12 +65,19 @@ VPB 17
 VNB 18
 
 adder 4 bit
-A1
-B1
-A2
-B2
-A3
-B3
-A4
-B4
-CI
+A1 1
+B1 2
+A2 3
+B2 4
+A3 5
+B3 6
+A4 7
+B4 8
+CI 9
+S1 10
+S2 11
+S3 12
+S4 13
+CO 14
+VDD 15
+GND 16
