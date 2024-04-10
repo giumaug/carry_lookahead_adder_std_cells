@@ -1,0 +1,3 @@
+29,225x82,25 micron 10e-6
+
+xbox 360mm2 19x19mm

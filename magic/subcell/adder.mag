@@ -1,0 +1,181 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1712679237
+<< metal1 >>
+rect 0 4035 30 4065
+rect 0 3950 30 3980
+rect 0 3865 30 3895
+rect 0 3780 30 3810
+rect 0 3695 30 3725
+rect 0 3610 30 3640
+rect 0 3525 30 3555
+rect 0 3440 30 3470
+rect 0 3355 30 3385
+rect 5815 450 5845 480
+rect 5815 365 5845 395
+rect 5815 280 5845 310
+rect 5815 195 5845 225
+rect 3255 -55 3285 25
+rect 0 -170 30 -140
+rect 0 -255 30 -225
+rect 0 -340 30 -310
+rect 0 -425 30 -395
+rect 0 -510 30 -480
+rect 0 -595 30 -565
+rect 0 -680 30 -650
+rect 0 -765 30 -735
+rect 5815 -3670 5845 -3640
+rect 5815 -3755 5845 -3725
+rect 5815 -3840 5845 -3810
+rect 5815 -3925 5845 -3895
+rect 3160 -4175 3190 -4095
+rect 0 -4290 30 -4260
+rect 0 -4375 30 -4345
+rect 0 -4460 30 -4430
+rect 0 -4545 30 -4515
+rect 0 -4630 30 -4600
+rect 0 -4715 30 -4685
+rect 0 -4800 30 -4770
+rect 0 -4885 30 -4855
+rect 5815 -7790 5845 -7760
+rect 5815 -7875 5845 -7845
+rect 5815 -7960 5845 -7930
+rect 5815 -8045 5845 -8015
+rect 3075 -8295 3105 -8215
+rect 0 -8410 30 -8380
+rect 0 -8495 30 -8465
+rect 0 -8580 30 -8550
+rect 0 -8665 30 -8635
+rect 0 -8750 30 -8720
+rect 0 -8835 30 -8805
+rect 0 -8920 30 -8890
+rect 0 -9005 30 -8975
+rect 5815 -11910 5845 -11880
+rect 5815 -11995 5845 -11965
+rect 5815 -12080 5845 -12050
+rect 5815 -12165 5845 -12135
+rect 5815 -12335 5845 -12305
+<< metal2 >>
+rect 20 -820 120 1085
+rect 5725 -1385 5825 545
+rect 20 -4940 120 -3035
+rect 20 -9065 120 -7155
+use adder_4  adder_4_0
+timestamp 1705007325
+transform 1 0 140 0 1 2635
+box -140 -2635 5705 1455
+use adder_4  adder_4_1
+timestamp 1705007325
+transform 1 0 140 0 1 -1485
+box -140 -2635 5705 1455
+use adder_4  adder_4_2
+timestamp 1705007325
+transform 1 0 140 0 1 -5605
+box -140 -2635 5705 1455
+use adder_4  adder_4_3
+timestamp 1705007325
+transform 1 0 140 0 1 -9725
+box -140 -2635 5705 1455
+<< labels >>
+flabel metal1 0 3365 10 3375 3 FreeSans 160 0 0 0 A1
+port 1 e
+flabel metal1 5 3455 5 3455 3 FreeSans 160 0 0 0 B1
+port 2 e
+flabel metal1 5 3540 5 3540 3 FreeSans 160 0 0 0 A2
+port 3 e
+flabel metal1 5 3625 5 3625 3 FreeSans 160 0 0 0 B2
+port 4 e
+flabel metal1 5 3710 5 3710 3 FreeSans 160 0 0 0 A3
+port 5 e
+flabel metal1 5 3795 5 3795 3 FreeSans 160 0 0 0 B3
+port 6 e
+flabel metal1 5 3880 5 3880 3 FreeSans 160 0 0 0 A4
+port 7 e
+flabel metal1 5 3965 5 3965 3 FreeSans 160 0 0 0 B4
+port 8 e
+flabel metal1 5 -750 5 -750 3 FreeSans 160 0 0 0 A5
+port 9 e
+flabel metal1 5 -665 5 -665 3 FreeSans 160 0 0 0 B5
+port 10 e
+flabel metal1 5 -580 5 -580 3 FreeSans 160 0 0 0 A6
+port 11 e
+flabel metal1 5 -495 5 -495 3 FreeSans 160 0 0 0 B6
+port 12 e
+flabel metal1 5 -410 5 -410 3 FreeSans 160 0 0 0 A7
+port 13 e
+flabel metal1 5 -325 5 -325 3 FreeSans 160 0 0 0 B7
+port 14 e
+flabel metal1 5 -240 5 -240 3 FreeSans 160 0 0 0 A8
+port 15 e
+flabel metal1 5 -155 5 -155 3 FreeSans 160 0 0 0 B8
+port 16 e
+flabel metal1 5 -4870 5 -4870 3 FreeSans 160 0 0 0 A9
+port 17 e
+flabel metal1 5 -4785 5 -4785 3 FreeSans 160 0 0 0 B9
+port 18 e
+flabel metal1 5 -4700 5 -4700 3 FreeSans 160 0 0 0 A10
+port 19 e
+flabel metal1 5 -4615 5 -4615 3 FreeSans 160 0 0 0 B10
+port 20 e
+flabel metal1 5 -4530 5 -4530 3 FreeSans 160 0 0 0 A11
+port 21 e
+flabel metal1 5 -4445 5 -4445 3 FreeSans 160 0 0 0 B11
+port 22 e
+flabel metal1 5 -4360 5 -4360 3 FreeSans 160 0 0 0 A12
+port 23 e
+flabel metal1 5 -4275 5 -4275 3 FreeSans 160 0 0 0 B12
+port 24 e
+flabel metal1 5 -8990 5 -8990 3 FreeSans 160 0 0 0 A13
+port 25 e
+flabel metal1 5 -8905 5 -8905 3 FreeSans 160 0 0 0 B13
+port 26 e
+flabel metal1 5 -8820 5 -8820 3 FreeSans 160 0 0 0 A14
+port 27 e
+flabel metal1 5 -8735 5 -8735 3 FreeSans 160 0 0 0 B14
+port 28 e
+flabel metal1 5 -8650 5 -8650 3 FreeSans 160 0 0 0 A15
+port 29 e
+flabel metal1 5 -8565 5 -8565 3 FreeSans 160 0 0 0 B15
+port 30 e
+flabel metal1 5 -8480 5 -8480 3 FreeSans 160 0 0 0 A16
+port 31 e
+flabel metal1 5 -8395 5 -8395 3 FreeSans 160 0 0 0 B16
+port 32 e
+flabel metal1 5845 465 5845 465 7 FreeSans 160 0 0 0 S1
+port 33 w
+flabel metal1 5845 380 5845 380 7 FreeSans 160 0 0 0 S2
+port 34 w
+flabel metal1 5845 295 5845 295 7 FreeSans 160 0 0 0 S3
+port 35 w
+flabel metal1 5845 210 5845 210 7 FreeSans 160 0 0 0 S4
+port 36 w
+flabel metal1 5845 -3655 5845 -3655 7 FreeSans 160 0 0 0 S5
+port 37 w
+flabel metal1 5845 -3740 5845 -3740 7 FreeSans 160 0 0 0 S6
+port 38 w
+flabel metal1 5845 -3825 5845 -3825 7 FreeSans 160 0 0 0 S7
+port 39 w
+flabel metal1 5845 -3910 5845 -3910 7 FreeSans 160 0 0 0 S8
+port 40 w
+flabel metal1 5845 -7775 5845 -7775 7 FreeSans 160 0 0 0 S9
+port 41 w
+flabel metal1 5845 -7860 5845 -7860 7 FreeSans 160 0 0 0 S10
+port 42 w
+flabel metal1 5845 -7945 5845 -7945 7 FreeSans 160 0 0 0 S11
+port 43 w
+flabel metal1 5845 -8030 5845 -8030 7 FreeSans 160 0 0 0 S12
+port 44 w
+flabel metal1 5845 -11895 5845 -11895 7 FreeSans 160 0 0 0 S13
+port 45 w
+flabel metal1 5845 -11980 5845 -11980 7 FreeSans 160 0 0 0 S14
+port 46 w
+flabel metal1 5845 -12065 5845 -12065 7 FreeSans 160 0 0 0 S15
+port 47 w
+flabel metal1 5845 -12150 5845 -12150 7 FreeSans 160 0 0 0 S16
+port 48 w
+flabel metal1 5 4050 5 4050 3 FreeSans 160 0 0 0 CI
+port 49 e
+flabel metal1 5845 -12330 5845 -12330 7 FreeSans 160 0 0 0 CO
+port 50 w
+<< end >>

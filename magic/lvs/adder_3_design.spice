@@ -45,7 +45,6 @@ X7 a_384_47# A1 a_81_21# VNB sky130_fd_pr__nfet_01v8 ad=0.091 pd=0.93 as=0.0894 
 Xsky130_fd_sc_hd__a21o_1_0 CI P1 G1 GND GND VDD VDD X1 sky130_fd_sc_hd__a21o_1
 Xsky130_fd_sc_hd__a21o_1_1 X1 P2 G2 GND GND VDD VDD X2 sky130_fd_sc_hd__a21o_1
 Xsky130_fd_sc_hd__a21o_1_2 X2 P3 G3 GND GND VDD VDD X3 sky130_fd_sc_hd__a21o_1
-Xsky130_fd_sc_hd__a21o_1_3 X3 P4 G4 GND GND VDD VDD CO sky130_fd_sc_hd__a21o_1
 
 Xsky130_fd_sc_hd__xor2_1_0 P1 CI GND GND VDD VDD S1 sky130_fd_sc_hd__xor2_1
 Xsky130_fd_sc_hd__xor2_1_1 P2 X1 GND GND VDD VDD S2 sky130_fd_sc_hd__xor2_1

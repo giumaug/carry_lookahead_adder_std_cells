@@ -42,15 +42,14 @@ X7 a_384_47# A1 a_81_21# VNB sky130_fd_pr__nfet_01v8 ad=0.091 pd=0.93 as=0.0894 
 **devattr s=3575,185 d=3640,186
 .ends
 
-Xsky130_fd_sc_hd__xor2_1_3 P4 sky130_fd_sc_hd__xor2_1_3/B VNB VNB VPB VPB S4 sky130_fd_sc_hd__xor2_1
-Xsky130_fd_sc_hd__a21o_1_0 CI P1 G1 VNB VNB VPB VPB sky130_fd_sc_hd__xor2_1_1/B sky130_fd_sc_hd__a21o_1
-Xsky130_fd_sc_hd__a21o_1_1 sky130_fd_sc_hd__xor2_1_1/B P2 G2 VNB VNB VPB VPB sky130_fd_sc_hd__xor2_1_2/B
+Xsky130_fd_sc_hd__xor2_1_3 P4 sky130_fd_sc_hd__xor2_1_3/B GND GND VPB VPB S4 sky130_fd_sc_hd__xor2_1
+Xsky130_fd_sc_hd__a21o_1_0 CI P1 G1 GND GND VPB VPB sky130_fd_sc_hd__xor2_1_1/B sky130_fd_sc_hd__a21o_1
+Xsky130_fd_sc_hd__a21o_1_1 sky130_fd_sc_hd__xor2_1_1/B P2 G2 GND GND VPB VPB sky130_fd_sc_hd__xor2_1_2/B
 + sky130_fd_sc_hd__a21o_1
-Xsky130_fd_sc_hd__a21o_1_2 sky130_fd_sc_hd__xor2_1_2/B P3 G3 VNB VNB VPB VPB sky130_fd_sc_hd__xor2_1_3/B
+Xsky130_fd_sc_hd__a21o_1_2 sky130_fd_sc_hd__xor2_1_2/B P3 G3 GND GND VPB VPB sky130_fd_sc_hd__xor2_1_3/B
 + sky130_fd_sc_hd__a21o_1
-Xsky130_fd_sc_hd__a21o_1_3 sky130_fd_sc_hd__xor2_1_3/B P4 G4 VNB VNB VPB VPB CO sky130_fd_sc_hd__a21o_1
-Xsky130_fd_sc_hd__xor2_1_0 P1 CI VNB VNB VPB VPB S1 sky130_fd_sc_hd__xor2_1
-Xsky130_fd_sc_hd__xor2_1_1 P2 sky130_fd_sc_hd__xor2_1_1/B VNB VNB VPB VPB S2 sky130_fd_sc_hd__xor2_1
-Xsky130_fd_sc_hd__xor2_1_2 P3 sky130_fd_sc_hd__xor2_1_2/B VNB VNB VPB VPB S3 sky130_fd_sc_hd__xor2_1
+Xsky130_fd_sc_hd__xor2_1_0 P1 CI GND GND VPB VPB S1 sky130_fd_sc_hd__xor2_1
+Xsky130_fd_sc_hd__xor2_1_1 P2 sky130_fd_sc_hd__xor2_1_1/B GND GND VPB VPB S2 sky130_fd_sc_hd__xor2_1
+Xsky130_fd_sc_hd__xor2_1_2 P3 sky130_fd_sc_hd__xor2_1_2/B GND GND VPB VPB S3 sky130_fd_sc_hd__xor2_1
 .end
 
